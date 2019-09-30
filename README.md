@@ -1,11 +1,12 @@
 
 ## P1 - Navigation
 
-Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.
+This is a repo a project in Udacity's Deep Reinforcement Learnign Nanodegree.
+It trains an agent in a Unity Environment. Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that enables games and simulations to serve as environments for training intelligent agents.
+
+Original Referenc: https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation
 
 ### The environment
-
-(from https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
 
 This project trains an agent to navigate (and collect bananas) in a large, square world.
 
@@ -29,9 +30,19 @@ The task is episodic, and in order to solve the environment, the agent must get 
 </center>
 <br>
 
-Run the code cell below to print some information about the environment.
-### Install dependencies
-The README has instructions for installing dependencies or downloading needed files.
+### Project Instruction from Udacity
 
-### Run code
-The README describes how to run the code in the repository, to train the agent.
+I ran this project in Udacity's workspace. These are the instructions given in the project's Github.
+
+#### Getting Started
+
+1. Download the environment from one of the links below. You need only select the environment that matches your operating system:
+  * Linux: click <a href="https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip">here</a>
+  * Mac OSX: click <a href="https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip">here</a>
+  * Windows (32-bit): click <a href="https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip">here</a>
+  * Windows (64-bit): click <a href="https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip">here</a>
+
+2. Place the file in the DRLND GitHub repository, in the p1_navigation/ folder, and unzip (or decompress) the file. The correspondig file path must be refrenced in `env = UnityEnvironment(file_name="...")`.
+
+### Instructions
+All the code is contained in **Report.ipynb**. Running the code sequentially in the notebook will train the agent and generate a checkpoint.
